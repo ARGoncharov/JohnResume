@@ -1,8 +1,12 @@
+header {
+
+}
+
 header .menu {
+	font-family: "Gill Sans", sans-serif;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	font-family: "Gill Sans", sans-serif;
 }
 
 header .menu ul {
@@ -19,4 +23,34 @@ header .menu ul li {
 header .menu ul li:last-child {
 	padding-left: 34px;
 	padding-right: 68px;
+}
+
+.title-block {
+	background: white;
+	font-family: "Gill Sans", sans-serif;
+	padding: 228px 498px 0 148px;
+	line-height: 60px;
+}
+
+.subtitle-block {
+	font-family: "Gill Sans", sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 0 508px 0 148px;
+}
+
+button {
+	font-family: "Gill Sans";
+	cursor: pointer;
+	background: #FF6464;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-size: 20px;
+	line-height: 29px;
+	margin: 0 0 0 148px;
+	padding: 9px 21px 17px 21px;
+	border: none;
+}
+
+.section-promo {
 }
